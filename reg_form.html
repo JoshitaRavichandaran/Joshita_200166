@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        .f1{
+            border-radius: 25px;
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <pre>
+    <div class="f1">
+        <form name="Reg Form" action="Welcome" method="post" >
+            
+                <h4 style= "text-align:center">Registration Form</h1>
+                <label for="field1">Name 
+                    <input type="text" class="input-field" name="field1" value="" placeholder="Enter Your Name "/>
+                </label>
+                <label for="field2">Gender 
+                    <input type="radio" class="input-field" name="field2" value="female" />Female
+                    <input type="radio" class="input-field" name="field2" value="male" />Male
+                
+                </label>
+                  
+                <label for="field3">Email <input type="email" class="input-field" name="field3" value="" /></label>
+                <label for="field4">Location 
+                    <select name="field4" class="select-field">
+                        <option value="Pune">Pune</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Chennai">Chennai</option>
+                        </select></label>
+                <label for="field5">Software Knowledge
+                    <input type="checkbox" class="input-field" id="S1" name="s1" value="HTML">HTML
+                    <input type="checkbox" class="input-field" id="S2" name="s2" value="CSS">CSS
+                    <input type="checkbox" class="input-field" id="S3" name="s3" value="JS">JSS
+                    
+                </label>
+                <label for="field8">Remarks
+                
+                <input type="text-area" class="input-field" name="field8" value="">
+            </label>
+            <label>
+                <span> </span><input type="submit" value="Submit" /></label>
+            </label>
+                
+        </form>
+    </div>
+    </pre>
+</body>
+</html>
